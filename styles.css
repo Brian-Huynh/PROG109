@@ -4,14 +4,16 @@ color: blue;
 }
 
 body {
-font-family: Helvetica, Arial, sans-serif;
-color: #665544;
-padding: 22px;
+font-family: 'DancingScriptRegular';
+color:#665544;
+padding:15px;
 }
 
-h1, h2, p {
-padding: 12px;
-line-height: 2em;
+h1 {
+text-align:center;
+color:blue;
+font-family:'DancingScriptRegular';
+font-size:400%;
 }
 
 i, a, a:hover, a:visited {

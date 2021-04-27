@@ -3,14 +3,13 @@ font-family: 'DancingScriptRegular';
 color: #665544;
 padding: 0 15% 0 15%;
 }
-
 h1 {
 text-align:center;
 color: blue;
 font-family:  'DancingScriptRegular';
 font-size: 400%;
 }
-
-i {
-  color: darkgreen;
+p {
+font-family: 'DancingScriptRegular';
+font-size: 200%:
 }

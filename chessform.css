@@ -1,7 +1,9 @@
 .spaceOne {
-  border-width: 1;
+  border-width: 1px;
+  border-style: solid;
 }
 
 .spaceTwo {
-  border-width: 2;
+  border-width: 2px;
+  border-style: double;
 }

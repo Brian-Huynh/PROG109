@@ -1,14 +1,14 @@
-.spaceOne {
+div.spaceOne {
+  display: block;
   border-width: 1px;
   border-style: solid;
   width: 100px;
   height: 100px;
 }
-
-.spaceTwo {
+div.spaceTwo{
+  display: block;
   border-width: 2px;
   border-style: double;
   width: 100px;
   height: 100px;
   background-color: grey;
-}

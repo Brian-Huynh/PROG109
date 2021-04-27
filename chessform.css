@@ -2,15 +2,15 @@
   display: inline;
   border-width: 1px;
   border-style: solid;
-  width: 100px;
-  height: 100px;
+  width: 500px;
+  height: 500px;
 }
 
 .spaceTwo {
   display: inline;
   border-width: 2px;
   border-style: double;
-  width: 100px;
-  height: 100px;
+  width: 500px;
+  height: 500px;
   background-color: grey;
 }

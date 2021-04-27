@@ -6,7 +6,7 @@ div.spaceOne {
   height: 100px;
 }
 div.spaceTwo{
-  display: block;
+  display: inline;
   border-width: 2px;
   border-style: double;
   width: 100px;

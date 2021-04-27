@@ -11,12 +11,13 @@ font-family:  'DancingScriptRegular';
 font-size: 400%;
 }
 
-body p {
+p {
 font-family: 'DancingScriptRegular';
 font-size: 200%:
 font-weight: normal;
 font-style: normal;
 
-p+i {
+i {
 color: darkgreen;
 }
+

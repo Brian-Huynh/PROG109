@@ -1,16 +1,14 @@
 .spaceOne {
-  display: inline;
   border-width: 1px;
   border-style: solid;
-  width: 500px;
-  height: 500px;
+  width: 100px;
+  height: 100px;
 }
 
 .spaceTwo {
-  display: inline;
   border-width: 2px;
   border-style: double;
-  width: 500px;
-  height: 500px;
+  width: 100px;
+  height: 100px;
   background-color: grey;
 }

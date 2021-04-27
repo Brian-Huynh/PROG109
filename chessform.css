@@ -8,4 +8,6 @@
 .spaceTwo {
   border-width: 2px;
   border-style: double;
+  width: 100px;
+  height: 100px;
 }

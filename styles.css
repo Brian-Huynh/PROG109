@@ -14,8 +14,8 @@ font-size: 400%;
 p {
 font-family: 'DancingScriptRegular';
 font-size: 200%:
-font-weight: normal;
-font-style: normal;
+  font-weight: normal;
+  font-size: 200%;
 
 i {
 color: darkgreen;

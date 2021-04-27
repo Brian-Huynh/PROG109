@@ -17,6 +17,6 @@ font-size: 200%:
 font-weight: normal;
 font-style: normal;
 
-i {
+p+i {
 color: darkgreen;
 }

@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Liquid Layout</title>
-		<link href="styles.css" type="text/css" rel="stylesheet" />
+		<link href="m04.css" type="text/css" rel="stylesheet" />
 	</head>
 	<body>
 		<div id="header">

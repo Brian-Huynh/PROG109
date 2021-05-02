@@ -25,13 +25,11 @@ body {
 			.column1 {
 				background-color: red;
 			}
-			.column2{
-				background-color: blue;
-}
+			.column2 {
+				background-color: blue;}
 			.column3 {
 				background-color: green;
-				margin-right: 0%;
-}
+				margin-right: 0%;}
 
 li {
   display: inline;

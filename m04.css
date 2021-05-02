@@ -17,7 +17,14 @@ body {
 				width: 31.3%;
 				float: left;
 				margin: 1%;}
+			.column1 {
+				color: red;
+			}
+			.column2{
+				color: blue;
+}
 			.column3 {
+				color: green;
 				margin-right: 0%;}
 li {
   display: inline;

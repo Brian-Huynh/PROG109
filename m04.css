@@ -4,16 +4,19 @@
   text-align: center;}
 
 body {
+  background-image: url("https://images.pexels.com/photos/211290/pexels-photo-211290.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   width: 90%;
-  margin: 0 auto;}
+  margin: 0 auto;
+}
 
 #content {
-  overflow: auto;}
+  overflow: auto;
+}
 
 #nav, #feature, #footer {
-	#feature {
-		background-image: url("https://images.pexels.com/photos/211290/pexels-photo-211290.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-  margin: 1%;}
+	
+  margin: 1%;
+}
 
 .column1, .column2, .column3 {
 				width: 31.3%;
@@ -27,15 +30,19 @@ body {
 }
 			.column3 {
 				background-color: green;
-				margin-right: 0%;}
+				margin-right: 0%;
+}
+
 li {
   display: inline;
 				padding: 0.5em;}
 			#nav, #footer {
 				background-color: #efefef;
-				padding: 0.5em 0;}
+				padding: 0.5em 0;
+}
 
 #feature, .article {
 				height: 10em;
 				margin-bottom: 1em;
-				background-color: #efefef;}
+				background-color: #efefef;
+}

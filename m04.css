@@ -18,13 +18,13 @@ body {
 				float: left;
 				margin: 1%;}
 			.column1 {
-				color: red;
+				background-color: red;
 			}
 			.column2{
-				color: blue;
+				background-color: blue;
 }
 			.column3 {
-				color: green;
+				background-color: green;
 				margin-right: 0%;}
 li {
   display: inline;

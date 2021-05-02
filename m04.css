@@ -11,6 +11,8 @@ body {
   overflow: auto;}
 
 #nav, #feature, #footer {
+	#feature {
+		background-image: url("https://images.pexels.com/photos/211290/pexels-photo-211290.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   margin: 1%;}
 
 .column1, .column2, .column3 {

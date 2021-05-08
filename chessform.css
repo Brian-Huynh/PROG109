@@ -8,14 +8,14 @@
   border-width: 1px;
   border-style: solid;
   width: 10%;
-  height: 100px;
+  height: 50px;
   float: left;
 }
 .spaceTwo{
   border-width: 2px;
   border-style: double;
   width: 10%;
-  height: 100px;
+  height: 50px;
   background-color: grey;
   float: left;
 }

@@ -4,7 +4,6 @@ body {
 
 #title{
   font-family: 'RabbidHighwaySignIVRegular';
-  
   text-align: center;
   background-color: blue;
 }
@@ -18,8 +17,8 @@ body {
   margin-top: 25%;
   margin-left: 10%
   margin-right: 10%
-  
 }
+
 .spaceOne {
   border-width: 1px;
   border-style: solid;
@@ -28,6 +27,7 @@ body {
   background-color: white;
   float: left;
 }
+
 .spaceTwo{
   border-width: 2px;
   border-style: double;
@@ -35,6 +35,11 @@ body {
   height: 70px;
   background-color: black;
   float: left;
+}
+
+#footer {
+  text-align: center;
+  background-color: green;
 }
 
 .clear { 

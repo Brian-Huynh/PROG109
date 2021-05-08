@@ -7,14 +7,14 @@
 .spaceOne {
   border-width: 1px;
   border-style: solid;
-  width: 100px;
+  width: 10%;
   height: 100px;
   float: right;
 }
 .spaceTwo{
   border-width: 2px;
   border-style: double;
-  width: 100px;
+  width: 10%;
   height: 100px;
   background-color: grey;
   float: right;

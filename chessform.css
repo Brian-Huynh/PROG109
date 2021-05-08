@@ -1,3 +1,6 @@
+body {
+  background-image: url(https://st2.depositphotos.com/3462697/7187/i/600/depositphotos_71875659-stock-photo-black-and-white-chessboard-background.jpg);
+
 .row { 
   position: relative;
   margin-left: 10%;
@@ -24,3 +27,4 @@
 #clear { 
   clear:both;
 }
+

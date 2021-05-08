@@ -3,13 +3,16 @@ body {
 }
 
 #title{
+  position: fixed;
   font-family: 'RabbidHighwaySignIVRegular';
   font-weight: normal;
   font-style: normal;
   text-align: center;
   background-color: blue;
-  margin-top: 25%;
-  margin-bottom: 5%
+  padding: 5px;
+  width: 100%;
+  top: 0px;
+  z-index: 10;
 }
 
 .row { 

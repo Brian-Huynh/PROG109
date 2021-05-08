@@ -1,14 +1,23 @@
-div.spaceOne {
-  display: block;
+.row { 
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.spaceOne {
   border-width: 1px;
   border-style: solid;
   width: 100px;
   height: 100px;
 }
-div.spaceTwo{
-  display: inline;
+.spaceTwo{
   border-width: 2px;
   border-style: double;
   width: 100px;
   height: 100px;
   background-color: grey;
+}
+
+#clear { 
+  clear:both;
+}

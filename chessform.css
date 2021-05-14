@@ -4,12 +4,11 @@ body {
 
 #title{
   position: fixed;
-  font-family: 'RabbidHighwaySignIVRegular';
+  font-family: 'ManilaSansBold';
   font-weight: normal;
   font-style: normal;
   text-align: center;
   background-color: blue;
-  padding: 5px;
 }
 
 .row { 

@@ -5,6 +5,7 @@ body {
 #title {
   text-align: center;
   position: fixed;
+  top: 0px;
   font-family: 'ManilaSansBold';
   font-weight: normal;
   font-style: normal;

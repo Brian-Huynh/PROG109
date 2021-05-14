@@ -8,6 +8,9 @@ body {
   font-weight: normal;
   font-style: normal;
   text-align: center;
+  width:100%;
+  padding: 10px;
+  margin: 10px;
   background-color: blue;
 }
 

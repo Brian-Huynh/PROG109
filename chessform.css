@@ -27,7 +27,7 @@ body {
 
 .row { 
   position: relative;
-  margin-left: 10% ;
+  margin-left:10%;
   margin-right:10%;
 }
 
@@ -35,18 +35,18 @@ body {
   border-width: 1px;
   border-style: solid;
   width: 10%;
-  height: 100px;
+  height: 65px;
   background-color: white;
-  float: right;
+  float: left;
 }
 
 .black{
   border-width: 1px;
   border-style: solid;
   width: 10%;
-  height: 100px;
+  height: 65px;
   background-color: black;
-  float: right;
+  float: left;
 }
 
 .clear { 

@@ -1,8 +1,7 @@
 .row { 
   position: relative;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .white {
@@ -35,10 +34,8 @@
 }
 
 #container {
-  margin-top: 20%;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 5%;
+  width: 80%;
+  margin: auto;
 }
 
 #title {

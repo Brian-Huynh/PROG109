@@ -1,30 +1,4 @@
-body {
-  background-image: url("https://t3.ftcdn.net/jpg/02/42/77/22/360_F_242772256_PRwokoyoXkDCIISNjfj9N3If0TPFtje8.jpg");
-}
 
-#title {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  padding: 10px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  width: 100%;
-  background-color: blue;
-  text-align: center;
-  z-index: 10;
-  font-family: 'ManilaSansBold';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 50px;
-}
-
-#container {
-  margin-top: 20%;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 5%;
-}
 
 .row { 
   position: relative;
@@ -33,8 +7,7 @@ body {
 }
 
 .white {
-  border-width: 1px;
-  border-style: solid;
+  border: 1px solid black;
   width: 10%;
   height: 65px;
   background-color: white;
@@ -42,8 +15,7 @@ body {
 }
 
 .black{
-  border-width: 1px;
-  border-style: solid;
+  border: 1px solid black;
   width: 10%;
   height: 65px;
   background-color: black;
@@ -55,8 +27,40 @@ body {
 }
 
 #footer {
+  border: solid 1px;
   text-align: center;
   background-color: pink;
-  width: 100%;
-  border: solid 1px;
+  padding: 10px;
+  margin: 10px;
+
 }
+
+#container {
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+#title {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 10px;
+  margin: 0px;
+  width: 100%;
+  background-color: blue;
+  text-align: center;
+  z-index: 10;
+  font-family: 'ManilaSansBold';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 50px;
+}
+
+
+body {
+  background-image: url("https://t3.ftcdn.net/jpg/02/42/77/22/360_F_242772256_PRwokoyoXkDCIISNjfj9N3If0TPFtje8.jpg");
+}
+
+

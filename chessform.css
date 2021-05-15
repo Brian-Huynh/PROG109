@@ -23,11 +23,10 @@
 }
 
 #footer {
-  border: solid 1px;
+  border: solid 5px pink;
   text-align: center;
   background-color: pink;
   width: 100%;
-  padding: 10px;
 
 }
 

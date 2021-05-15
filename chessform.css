@@ -1,13 +1,14 @@
 .row { 
   position: relative;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .white {
   border: 1px solid black;
   width: 10%;
-  height: 10%;
+  height: 65px;
   background-color: white;
   float: left;
 }
@@ -15,7 +16,7 @@
 .black{
   border: 1px solid black;
   width: 10%;
-  height: 10%;
+  height: 65px;
   background-color: black;
   float: left;
 }
@@ -30,7 +31,6 @@
   background-color: pink;
   width: 100%;
   padding: 10px;
-  margin-bottom: 20%;
 
 }
 
@@ -56,7 +56,6 @@
   font-style: normal;
   font-size: 50px;
 }
-
 
 body {
   background-image: url("https://t3.ftcdn.net/jpg/02/42/77/22/360_F_242772256_PRwokoyoXkDCIISNjfj9N3If0TPFtje8.jpg");

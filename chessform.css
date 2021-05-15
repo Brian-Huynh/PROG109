@@ -7,16 +7,16 @@
 
 .white {
   border: 1px solid black;
-  width: 10%;
-  height: 65px;
+  width: 15%;
+  height: 15%;
   background-color: white;
   float: left;
 }
 
 .black{
   border: 1px solid black;
-  width: 10%;
-  height: 65px;
+  width: 15%;
+  height: 15%;
   background-color: black;
   float: left;
 }

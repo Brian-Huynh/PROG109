@@ -20,14 +20,14 @@ body {
 
 #container {
   margin-top: 20%;
-  margin-left: 5%;
-  margin-right: 10%;
+  margin-left: 10px auto;
+  margin-right: 10px auto;
   margin-bottom: 5%;
 }
 
 .row { 
   position: relative;
-  margin-left:10%;
+  margin-left:10px ;
   margin-right:10%;
 }
 

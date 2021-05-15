@@ -27,7 +27,7 @@ body {
 
 .row { 
   position: relative;
-  margin-left:10px ;
+  margin-left: 10% ;
   margin-right:10%;
 }
 
@@ -35,7 +35,7 @@ body {
   border-width: 1px;
   border-style: solid;
   width: 10%;
-  height: 50px;
+  height: 65px;
   background-color: white;
   float: right;
 }
@@ -44,7 +44,7 @@ body {
   border-width: 1px;
   border-style: solid;
   width: 10%;
-  height: 50px;
+  height: 65px;
   background-color: black;
   float: right;
 }
@@ -57,7 +57,7 @@ body {
   text-align: center;
   left: 0px;
   background-color: pink;
-  width: 110%;
+  width: 100%;
   padding: 20px;
   border: solid 1px;
 }

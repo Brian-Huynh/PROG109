@@ -5,6 +5,10 @@
 
 }
 
+#container {
+  margin: 15%;
+}
+
 .white {
   width: 70px;
   height: 10%;

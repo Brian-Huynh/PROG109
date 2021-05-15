@@ -22,6 +22,7 @@
 }
 
 #footer {
+  left: 0px;
   bottom: 0px;
   border: solid 5px pink;
   text-align: center;
@@ -33,7 +34,7 @@
 
 #container {
   width: 80%;
-  height: 50%
+  height: 50%;
   margin: 20%;
 }
 

@@ -26,7 +26,7 @@
 }
 
 #footer {
-  left: 0px;
+  padding-left: 100px;
   bottom: 0px;
   border: solid 5px pink;
   text-align: center;

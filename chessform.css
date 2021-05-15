@@ -1,7 +1,7 @@
 .row { 
   position: relative;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
@@ -26,17 +26,14 @@
 }
 
 #footer {
-  bottom: 0px;
   border: solid 5px pink;
   text-align: center;
   background-color: pink;
   width: 100%;
-  margin: 0px;
-
 }
 
 #container {
-  margin: 15%;
+  margin: auto;
 }
 
 #title {

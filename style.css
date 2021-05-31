@@ -1,1 +1,12 @@
-
+#nav {
+  list-style-type:none;
+  font-family:Arial;
+  background-color:blue;
+}
+#nav li {
+  display:inline;
+  text-align:center;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}

@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css" />
-	<meta charset="utf-8">
-    	<meta name="description" content="ContactPage">
-    	<meta name="viewport" content="width=device-width"> 
-    	<meta name="author" content="Brian Huynh">
-    	<meta name="keywords" content="HTML, CSS">
-	<title> Midterm Website-Setup </title>
 </head>
 <body>
-	<h1> Contact Me </h1>
-	<div id="nav">
-		<ul>
-                  <li><a href="home.html">Home</a></li> 
-                  <li><a href="about.html">About Me</a></li>
-                  <li><a href="coursework.html">Coursework</a></li>
-                  <li><a href="artifacts.html">Artifacts</a></li>
-                  <li><a href="modules.html">Modules</a></li>
-                  <li><a href="contactme.html">Contact Me</a></li>
-                  <li><a href="">Special</a></li>
+  <div id="nav">
+  <ul>
+         <li><a href="home.html">Home</a></li> 
+    <li><a href="about.html">About Me</a></li>
+    <li><a href="coursework.html">Coursework</a></li>
+    <li><a href="artifacts.html">Artifacts</a></li>
+    <li><a href="modules.html">Modules</a></li>
+    <li><a href="contactme.html">Contact Me</a></li>
+    <li><a href="">Special</a></li>
 		</ul>
 	</div>
-</body>
+  <hr />
+  <div id="header">
+    <h1> Contact Form </h1>
+  </div>
+  
+  <form id="contact" method="get">
+    <p> Your first name 
+      <input type="text" name="firstName" maxlength="30">
+    </p>
+    <p> Your last name
+       <input type="text" name="lastname"> </p>
+    <p> Your E-mail
+      <input type="email" name="email"> </p>
+    <p> Comments <p>
+    <textarea name="Comments" cols="20" rows="5"> Enter your comments... </textarea>
+  </form>
+    
+    
+    </body>
+  
 </html>

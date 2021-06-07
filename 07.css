@@ -1,0 +1,130 @@
+body {
+  background-color: #fff;
+  background: url("https://lh3.googleusercontent.com/LEXhKGYxb3EUluJnm6eNCjhQMljgs0cALMQFJ1POOVAti8Jk3xzGCOLLvBOzSwMxM78ZUl0QhAF9PQoPqOQhB9QtRZIyKbqCFaqpzwvy4LyXvki9fKO39L8aAWtkrh4Z8qBUZRqnOMwvpUkmm5mIG5aIhuQKwCoANvmlxVyQh6nsSfkIvt0lXUDhc-LPdTGcZwaVO3MoOLJ5heGNreYEXrmSwvCP6zKvoOtt9gNN4WUdXIJ-Zkt429CgCWhpoW9YljX2bR9A6X9OftoJzmL8GNt6r8uDBW_OHAJS1XN2bOJh5FOmZrh7OfJ__UYgzJGYhwRukI1bPB3_Bz32bwSP_zrY3dndweFVeIopmsABDzCH44e_hKLW26nnp-77hhvSh6wumxPX6kdIkC6NvW0JWy97rTpIfasXrnGRnaFzNwl9T-8yXxLlcr39kwmrCoQFMeavrj8PffX_dcwI3TU-9i2E7V-n40JugtcHEBxQciB8rOJIHc6M-jyI6UiodGt5ZvsBM3QCuwsWBfK8s67qFY7bjsKPrtCKb43Q_5Whb6mOvdOs8QknKkQ6rYd9HAAOsamFNwDAfWnWS_LFfrR3azGhrva06ZhelUniTuYc_rpXSkMgMoar9mZyw2Z6o1k85kzib8uvO8GK0TYpB6-RnXeoI8azMiN3kzahmL4dHZy5jJg70eOeUfOQjubMdD_sg-8ib4R8Q051OFNhnWWahSQ=w1275-h937-no?authuser=0") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;}
+
+h1 {
+  background: #1e1b1e url("https://lh3.googleusercontent.com/HyJoNVqgFLh8V0TMD1_ONARh6gqsREz2BjkqasM_DYHtCNf6ohLWf0ovK-v0SdHSixzePZL-ZXwkPyNeXqmfTpqaGXveqQJo3krsdoGQWUPoiQKN_MsI-VewXusL9ZdtUmprnJnN_aYiIeyC9L-0-oz5KloeCrXb5AzTQhMFNfGQszZmp-5Z5a3ekt1oYvy06eTSXXKVdOl5EiG0skNPJ7aeqLYiYNPtzVdbvFDHjDlabOmlJy7v3CbzYygU_bSPmBjTqChvtstymLkOMwbW8yCA-8Ccfe3uDNk04jClk8bIY8QBRhWYW1WOXuWH5IuZCzUjJw1FJWOww6CoEefvwNJJCQlGi_BMSFl4MMN-h1Xrk6RVxkG6RHSuvE3YRyF-HzIgdT4oGCu_p-qVdLa-5LY0hdnPrLXijK9SF1Bv2YPy5Vec78SxWlUU5Yjbo4tZTPZiVFKkf88NBjVxvw52_4gB0ewg_W-hWRsd5SbZ7uJ8Sv2wXaKj6W-tzF5YZGnqJ-IkjUx47BU8b2ivTysroyg2NY5Ip9n0sp-_KK6OLXGVc9j7fUlewkRsODxilW6fyjkLBUTPLDKSFqai013nUVHpHxWKVfg4KyZP_KdNyPHXarBUGQUxq3K1orKdimbYC2EfFdiRFkLCSDaFOCrw_gOylaBa7UuUfTZMlJX33UB3bFRBEHhgB6WqyL8bmoRaNYo3risVZNqEIlttLLM-0-U=w230-h180-no?authuser=0") no-repeat;
+  width: 230px;
+  height: 180px;
+  float: left;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;}
+
+h2 {
+  margin: 2em 0 0 0;
+  color: #adffda; 
+  font-weight: normal;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+h2 + p {
+  margin: 0.25em 0 0 0;}
+p + p {
+  margin: 0;}
+p + h2 {
+  margin: 10px 0 0 0;}
+
+/* message under the logo */
+
+#message {
+  float: left;
+  clear: left;
+  background-color: #ffb87a;
+  color: #1e1b1e;
+  width:170px;
+  padding: 18px 30px;
+  text-align: center;}
+
+/* black bar across the right hand side of the page */
+
+#info {
+  background-color: #1e1b1e;
+  color: #fff;
+  width: 175px;
+  padding: 0 15px;
+  text-align: center;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  right: 15%;}
+
+/* details in the black bar */
+
+#hotelName {
+  text-transform: uppercase;
+  text-align: center; 
+  font-size: 120%;
+  margin-top: 10px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff; 
+  padding: 10px 0;}
+
+#hotel1 {
+  margin-top: 1em; 
+  border-top: 1px solid #fff; 
+  padding-top: 1em;} 
+
+#hotel3 {
+  border-bottom: 1px solid #fff; 
+  padding-bottom: 1em;}
+}
+
+#rooms {
+  font-size: 440%;
+  color: #ffb87a;
+  display: inline-block;
+  margin: 0;}
+
+#roomRate{
+  text-decoration: line-through;
+  display: inline-block;
+  float: left;
+  padding-top: 10px;}
+
+#specialRate {  
+  font-size: 440%;
+  color: #ffb87a;
+  display: inline-block;
+  padding: 10px 0 20px 0;
+  margin: 0;}
+
+#offerEnds {
+  text-transform: uppercase;
+  color: #ffb87a;
+  font-size: 75%;}
+
+.true, .false {
+  padding: 0 50px 0 50px;
+  line-height: 28px;
+  text-align: left;
+  background-image: url("../images/check-cross.png");
+  background-position: 120px 0;
+  background-repeat: no-repeat;}
+
+.false {
+  background-position: 120px -28px;}
+
+/* footer */
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #adffda;}
+
+#footer p {
+  padding: 10px;
+  margin: 0;}
+
+.data {
+  padding: 10px;}

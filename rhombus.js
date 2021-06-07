@@ -89,6 +89,7 @@ function downLeft(pHeight, pColorEven, pColorOdd, pSymbol){
       //Add spaces for lower portion of the rhombus
       for (x=1;x<=pHeight-i;x++) {
         rLine +="<span class='space'>" + pSymbol+ "</span>";
+
       }
           
     }
@@ -96,7 +97,7 @@ function downLeft(pHeight, pColorEven, pColorOdd, pSymbol){
     
     
     //Create each line on the Rhombus
-    for(j=0;j<i;j++){
+    for(j=x;j<=pHeight;j++){
 
 
       //Is the position even or odd so we change the color
@@ -156,3 +157,4 @@ function downRight(pHeight, pColorEven, pColorOdd, pSymbol){
   document.getElementById("downRight").innerHTML = rLine;
 
 }
+

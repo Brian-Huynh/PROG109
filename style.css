@@ -72,7 +72,7 @@ body{
 
 .course{
   background-color: #66554e;
-  width: 60%;
+  margin-bottom: 20%;
   font-family: "DecalotypeRegular"
 }
 .course a {
@@ -84,6 +84,16 @@ body{
   color: gold;
   font-size: 23px;
 }
+#courseList{
+  margin-bottom: 40%;
+}
+#courseList img {
+  float: right;
+  margin-right: 10%;
+  width: 300px;
+  height: 300px;
+}
+
 
 #container .module {
   background-color: tan;
@@ -114,6 +124,8 @@ body{
   background-color: #66554e
 }
 
+
+
 .artifact {
   background-color: #D0B49F;
   width: 250px;
@@ -135,6 +147,7 @@ body{
   width: 250px;
   height: 200px;
 }
+
 
 
 form {

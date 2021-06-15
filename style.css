@@ -16,7 +16,7 @@ body{
   float: left;
   list-style-type:none;
   font-size: 35px;
-  margin-bottom: 5%;}
+  margin-bottom: 10%;}
 #nav li{
   display:inline;
   float: left;
@@ -47,6 +47,7 @@ body{
   font-family: "DecalotypeRegular";
   color:gold;
   font-weight:bold;
+  margin-bottom: 40%;
 }
 #container p{
   font-size: 18px;}

@@ -109,8 +109,10 @@ body{
 
 .greeting {
   font-size: 30px;
+  color: gold;
+  text-align: center;
+  background-color: #66554e
 }
-
 
 .artifact {
   background-color: #D0B49F;

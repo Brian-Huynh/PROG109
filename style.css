@@ -20,10 +20,12 @@ body{
 #nav li{
   display:inline;
   float: left;
+  margin-left: 0px;
   margin-left: 3.5%;
   margin-right: 3.5%;
   padding-left: 1%;
   padding-right: 1%;}
+
 #nav a {
   color: cyan;
 }
@@ -37,6 +39,9 @@ body{
   margin-bottom: 3%;}
 #header a{
   color:turquoise;
+}
+#header p {
+  background-color: #66554e;
 }
 
 #container {
@@ -65,11 +70,16 @@ body{
 
 .course{
   background-color: #66554e;
+  width: 40%;
+  font-family: "DecalotypeRegular"
 }
 .course a {
-  color: cyan;}
+  color:cyan;}
 .course p {
-  text-align: left;}
+  text-align: left;
+  line-height: 2;
+  color: gold;
+}
 
 
 .artifact {

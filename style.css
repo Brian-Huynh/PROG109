@@ -20,8 +20,6 @@ body{
 #nav li{
   display:inline;
   float: left;
-  margin-left: 0px;
-  margin-left: 1%;
   margin-right: 2.5%;
   padding-left: 1%;
   padding-right: 1%;}
@@ -70,15 +68,17 @@ body{
 
 .course{
   background-color: #66554e;
-  width: 40%;
+  width: 60%;
   font-family: "DecalotypeRegular"
 }
 .course a {
+  font-size: 30px;
   color:cyan;}
 .course p {
   text-align: left;
   line-height: 2;
   color: gold;
+  font-size: 23px;
 }
 
 

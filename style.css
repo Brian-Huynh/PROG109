@@ -89,7 +89,8 @@ body{
   padding: 0px;
   text-align: center;
   float: left;
-  margin-right: 4%;
+  margin-left: 3%;
+  margin-right: 3%;
   color: black;
 }
 .artifact a {

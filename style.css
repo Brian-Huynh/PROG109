@@ -79,7 +79,12 @@ body{
 }
 
 
-
+.greeting {
+  text-align: center;
+  color: gold;
+  font-size:30px;
+  background-color:#66554e
+}
 
 .course{
   background-color: #66554e;

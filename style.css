@@ -41,6 +41,15 @@ body{
 #header a{
   color:turquoise;
 }
+
+img {
+  width: 50% ;
+  height: 400px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 10%;
+}
+
 #header p {
   background-color: #66554e;
 }
@@ -67,6 +76,14 @@ body{
   color: gold;
   float:left;
   background-color:#66554e;
+}
+
+
+.greeting {
+  font-size: 35px;
+  color: gold;
+  text-align: center;
+  background-color: #66554e;
 }
 
 
@@ -114,14 +131,6 @@ body{
   font-size: 45px;
   color: cyan;
   padding-bottom: 10px;
-}
-
-
-.greeting {
-  font-size: 30px;
-  color: gold;
-  text-align: center;
-  background-color: #66554e
 }
 
 

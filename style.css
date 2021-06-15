@@ -34,6 +34,70 @@ body{
   font-size:25px;
   margin-left: auto;
   margin-right:auto;
+  margin-bottom: 3%;}
+#header a{
+  color:turquoise;
+}
+
+#container {
+  z-index:5;
+  background-color: #66554e;
+  width: 100%;
+  text-align:center;
+  font-family: "DecalotypeRegular";
+  color:gold;
+  font-weight:bold;
+}
+#container p{
+  font-size: 18px;}
+
+.course{
+  background-color: #66554e;
+}
+.course a {
+  color: cyan;}
+.course p {
+  text-align: left;}
+
+
+.artifact {
+  background-color: yellow;
+  width: 10%;
+  height: 150px;
+  padding: 50px;
+  text-align: center;
+  float: left;
+  margin-right: 5%;
+}
+
+.artifact a {
+  color: black;
+  font-family: helvetica, sans-serif;
+}
+.artifact img {
+  width: 150px;
+  height: 150px;
+}
+
+form {
+  text-align: center;
+  background-color: pink;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: double 15px;
+}
+
+#footer {
+  background-color: orange;
+  width: 20%;
+  padding: 5px;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+  margin-right:auto;
   margin-bottom: 5%;}
 #header a{
   color:turquoise;

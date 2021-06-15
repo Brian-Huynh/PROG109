@@ -16,42 +16,40 @@ body{
   float: left;
   list-style-type:none;
   font-size: 35px;
-  margin-bottom: 5%;
-}
-
+  margin-bottom: 5%;}
 #nav li{
   display:inline;
   float: left;
   margin-left: 0px;
   margin-right: 3.5%;
   padding-left: 1%;
-  padding-right: 1%;
-}
-
+  padding-right: 1%;}
 #nav a {
+  color: cyan;
+}
+
+#header{
   color: turquoise;
-  
-}
-
-#intro{
-  display:block;
-}
-
-.space{
-  margin-bottom: %;
-}
-
-#header a{
   text-align: center;
-  padding:0px;
+  font-size:25px;
   margin-left: auto;
   margin-right:auto;
-  margin-bottom: 5%;
-  padding: 0px;
-  color: turquoise;
-  font-size: 40px;
+  margin-bottom: 5%;}
+#header a{
+  color:turquoise;
 }
 
+#container {
+  background-color: #66554e;
+  width: 100%;
+  text-align:center;
+  font-family: "DecalotypeRegular";
+  color:gold;
+  font-weight:bold;
+}
+#container p{
+  font-size: 18px;
+}
 
 .artifact {
   background-color: yellow;
@@ -79,18 +77,6 @@ form {
   margin-left: auto;
   margin-right: auto;
   border: double 15px;
-}
-
-#container {
-  background-color: #66554e;
-  width: 100%;
-  text-align:center;
-  font-family: "DecalotypeRegular";
-  color:gold;
-  font-weight:bold;
-}
-#container p{
-  font-size: 18px;
 }
 
 #footer {

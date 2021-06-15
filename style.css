@@ -42,7 +42,7 @@ body{
   color:turquoise;
 }
 
-img {
+#about {
   width: 50% ;
   height: 400px;
   margin-left: 25%;
@@ -79,12 +79,6 @@ img {
 }
 
 
-.greeting {
-  font-size: 35px;
-  color: gold;
-  text-align: center;
-  background-color: #66554e;
-}
 
 
 .course{

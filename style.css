@@ -181,6 +181,11 @@ form {
   margin-right: auto;
   border: double 15px;
 }
+#thanks {
+  text-align: center;
+  font-size: 75px;
+  background-color: tan;
+}
 
 #container #text p{
   width: 80%;

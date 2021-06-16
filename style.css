@@ -101,7 +101,7 @@ body{
 
 .course{
   background-color: #66554e;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
   font-family: "DecalotypeRegular"
 }
 .course a {
@@ -111,7 +111,7 @@ body{
   text-align: left;
   line-height: 2;
   color: gold;
-  font-size: 23px;
+  font-size: 43px;
 }
 #courseList{
   margin-bottom: 40%;

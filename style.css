@@ -176,6 +176,21 @@ form {
   border: double 15px;
 }
 
+#container #text p{
+  width: 80%;
+  font-size: 30px;
+}
+
+#container #text a{
+  margin-left: 20%;
+  color: cyan;
+  font-size: 40px;
+}
+
+#video {
+  float: right;
+  margin-right: 10%;
+}
 
 #footer {
   background-color: orange;

@@ -31,19 +31,19 @@
   
   <form id="contact" action="thankyou.html" method="get"> 
     
-    <p> Your first name: 
-      <input type="text" name="firstName" maxlength="30">
+    <p> <label for="firstName"> Your first name: </label>
+      <input type="text" id="firstName" name="firstName" maxlength="30">
     </p>  <br />
     
-    <p> Your last name:
-       <input type="text" name="lastname"> </p> <br />
+    <p> <label for="lastName"> Your last name: </label>
+       <input type="text" id="lastName" name="lastname" maxLength="30"> </p> <br />
     
-    <p> Your E-mail:
-      <input type="email" name="email"> </p> <br />
+    <p> <label for="Email"> Your E-mail: </label>
+      <input type="email" id="Email" name="email"> </p> <br />
     <p> Comments <p> 
  
-    <textarea name="Comments" cols="50" rows="6"> Enter your comments... </textarea> <br />
-    <input type="submit">
+    <label for="comments"> <textarea name="Comments" cols="50" rows="10"> Enter your comments... </textarea> </label> <br />
+    <input type="submit" id="submit" name="submit" value="submit">
   </form>
   
   <div id="footer">

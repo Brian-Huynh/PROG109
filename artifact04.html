@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> Validation Form </title>
+</head>
+<body>
+  <form action="" id="validationForm" onsubmit="return validateForm()" >
+    <fieldset>
+      <p>
+	<label for='FirstName'>First Name:</label>
+	<input type="text" id="FirstName" name="FirstName" />
+      </p>
 
+    <p>
+	<label for='LastName'> Last Name:</label>
+	<input type="text" id="LastName" name="LastName" />
+    </p>
+    
+    <p>
+	<label for='Email'>Email:</label>
+	<input type="text" id="EMail" name="EMail" />
+    </p>
+    
+    <p>
+	<label for='Phone'> Phone:</label>
+	<input type="text" id="Phone" name="Phone" />
+    </p>
+      
+      <p>
+        <label for="Username"> Username: </label>
+        <input type="text" id="Username" name="Username" />
+      </p>
+      
+      <p> 
+        <label for="Password"> Password: </label>
+        <input type="password" id="Password" name="Password" />
+      </p>
+
+    <p>
+	<label for='Address'>Address:</label>
+	<textarea cols="20" rows="5" id="Address" name="Address"></textarea>
+    </p>
+      
+      <p>
+        <label for="City"> City: </label>
+        <input type="text" id="City" name="City" />
+    
+    <p>
+	<label for='State'>State:</label>
+	<select id="State"  name="State">
+        <option value="00" selected="selected">[choose yours]</option>
+        <option value="01"></option>
+        <option value="02"></option>
+        <option value="03"></option>
+        <option value="04"></option>
+        <option value="05"></option>
+        <option value="06"></option>
+        <option value="07"></option>
+        <option value="08"></option>
+        <option value="09"></option>
+        <option value="00"></option>
+	</select>
+    </p>
+      
+      <p>
+	<label for='Country'> Country: </label>
+	<select id="Country"  name="Country">
+        <option value="00" selected="selected">[choose yours]</option>
+        <option value="01"></option>
+        <option value="02"></option>
+        <option value="03"></option>
+        </select>
+      </p>
+      
+      <p>
+        <label for="ZipCode"> Zip Code: </label>
+        <input type="text" id="ZipCode" name="ZipCode" />
+      </p>
+      
+    <p>
+	<input type="submit" name="submit" value="Submit">
+    </p>
+    </fieldset>
+</form>
+</body>
+</html>

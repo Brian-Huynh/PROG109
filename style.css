@@ -6,8 +6,9 @@ body{
   font-family: "FloridaProject"
 }
 
+
 #nav{
-  z-index: 10;
+  z-index: 10
   position: relative;
   margin-bottom:20%;
   width: 100%;
@@ -29,6 +30,7 @@ body{
   color: cyan;
 }
 
+
 #header{
   z-index:5;
   color: turquoise;
@@ -41,18 +43,19 @@ body{
 #header a{
   color:turquoise;
 }
+#header p {
+  background-color: #66554e;
+}
+
 
 #about {
   width: 50% ;
-  height: 400px;
+  height: 470px;
   margin-left: 25%;
   margin-right: 25%;
   margin-bottom: 10%;
 }
 
-#header p {
-  background-color: #66554e;
-}
 
 #container {
   z-index:5;
@@ -82,9 +85,13 @@ body{
 .greeting {
   text-align: center;
   color: gold;
-  font-size:30px;
-  background-color:#66554e
+  font-size: 30px;
+  background-color:#66554e}
+#me p{
+  color: yellow;
+  font-size: 45px;
 }
+
 
 .course{
   background-color: #66554e;

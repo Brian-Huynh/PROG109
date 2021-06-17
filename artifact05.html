@@ -4,7 +4,7 @@
     <meta name="description" content="Week #9 - Slideshow "> 
     <meta charset="utf-8">
     <meta name="author" content="Brian Huynh">
-    <meta name="keywords" content="HTML, JS">
+    <meta name="keywords" content="HTML, CSS, JS">
     <link rel="stylesheet" type="text/css" href="a5.css">
     <title> Artifact 5: Slideshow </title>
   </head>
@@ -12,15 +12,25 @@
   <body>
     <h1>Slideshow of Grief Stages?</h1> 
     
-    <input id="auto" type="checkbox">Run automatically    
-    <br><br> 
-    <img id="slideshow" src="https://www.betterathomehc.com/wp-content/uploads/2019/09/denial.jpg" width="500" height="300" alt="Sign saying denial">
-    <p id="caption"> Denial </p> 
+    <div id="container">
+      <input id="auto" type="checkbox">Run automatically    
+      <br><br> 
+      <img id="slideshow" src="https://www.betterathomehc.com/wp-content/uploads/2019/09/denial.jpg" width="500" height="400" alt="Sign saying denial">
+      <p id="caption"> Denial, Stage 1 </p> 
     
-    <button id="previous">PREVIOUS</button>
-    <button id="next">NEXT</button> 
-    
+      <button id="previous"> BACK </button>
+      <button id="next"> NEXT </button> 
+    </div>
+
+      
+      <div id="footer">    
+        <p><a href="https://validator.w3.org/nu/" target="_blank"> <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/78500861/original/ee1278a136a5219d748492391a0852a6e6d5d9fc/validate-your-html-and-css-code-by-w3c-d1028293-de8f-4a11-86a7-a4d93fb2b313.png" height="100" width="100" alt="W3C Html Validator Icon" /></a></p>
+        <p><a href="http://jigsaw.w3.org/css-validator/" target="_blank"> <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" height="100" width="100" /> </a></p>
+  </div>
+      
     <script src="a5.js"> </script>
+    
+    
 
   </body>
 </html>

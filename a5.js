@@ -1,15 +1,14 @@
-var myImages =["https://wallpaperaccess.com/full/490164.jpg",
-               "https://wallpapercave.com/wp/wp4573758.jpg",
-               "https://cdn.hipwallpaper.com/i/81/64/xLR15s.jpg",
-               "https://wallpaperaccess.com/full/393963.jpg",
-               "https://mcdn.wallpapersafari.com/medium/24/49/36xlYA.jpg",
-               "https://mcdn.wallpapersafari.com/medium/59/50/2UjThV.jpg"
+var myImages =["https://www.betterathomehc.com/wp-content/uploads/2019/09/denial.jpg", 
+               "https://www.hsdinstitute.org/assets/images/face-anger-with-focus.2.png",
+               "https://www.storageunitauctionlist.com/blog/wp-content/uploads/2018/06/haggling.jpg",
+               "https://static01.nyt.com/images/2016/01/11/upshot/2up-healthdepress-illo-promo/2up-healthdepress-illo-promo-articleLarge-v4.jpg?quality=75&auto=webp&disable=upscale",
+               "https://mytherapynyc.com/wp-content/uploads/2020/02/zac-durant-_6HzPU9Hyfg-unsplash-1-1030x687.jpg"
               ];
 
 
-var captionImages =["Spring","Summer","Fall","Winter","Lake","Ocean Life"];
+var captionImages =["Denial","Anger","Bargains","Sadness","Acceptance"];
 
-var index=0; 
+ var index=0; 
 
  function updateImage(){
  document.getElementById("slideshow").src = myImages[index];
@@ -39,13 +38,11 @@ var nextButton = document.getElementById("next");
 var previousButton = document.getElementById("previous"); 
 
 previousButton.addEventListener("click",back,false);
-nextButton.addEventListener("click",next,false);
-
+nextButton.addEventListener("click",next,false); 
 
 function autoSlide(){
 if (document.getElementById("auto").checked)
  next(); 
 }
 
-
-setInterval(autoSlide,2000);
+setInterval(autoSlide,1000);

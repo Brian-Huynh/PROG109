@@ -1,1 +1,12 @@
+#footer {
+  text-align:center;
+  
+}
 
+#container {
+  text-align: center;
+}
+
+#container #caption{
+  font-size: 30px;
+}

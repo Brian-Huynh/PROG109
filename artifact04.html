@@ -6,12 +6,13 @@
   <title> Validation Form </title>
 </head>
 <body>
-  <form action="" id="validationForm" onsubmit="return validateForm()" >
+  <form action="a4thanks.html" id="MyForm" onsubmit="return validateForm();">
     <fieldset>
       <p>
 	<label for='FirstName'>First Name:</label>
 	<input type="text" id="FirstName" name="FirstName" />
       </p>
+      <div id="errorMessage1"> </div>
 
     <p>
 	<label for='LastName'> Last Name:</label>
@@ -20,7 +21,7 @@
     
     <p>
 	<label for='Email'>Email:</label>
-	<input type="text" id="EMail" name="EMail" />
+	<input type="text" id="Email" name="Email" />
     </p>
     
     <p>
@@ -50,17 +51,59 @@
     <p>
 	<label for='State'>State:</label>
 	<select id="State"  name="State">
-        <option value="00" selected="selected">[choose yours]</option>
-        <option value="01"></option>
-        <option value="02"></option>
-        <option value="03"></option>
-        <option value="04"></option>
-        <option value="05"></option>
-        <option value="06"></option>
-        <option value="07"></option>
-        <option value="08"></option>
-        <option value="09"></option>
-        <option value="00"></option>
+      <option value="00" selected="selected">[choose yours]</option>
+      <option value="01"> Alabama </option>
+      <option value="02"> Alaska </option>
+      <option value="03"> Arizona </option>
+      <option value="04"> Arkansas </option>
+      <option value="05"> California </option>
+      <option value="06"> Colorado </option>
+      <option value="07"> Conneticut </option>
+      <option value="08"> Delaware </option>
+      <option value="09"> Florida </option>
+      <option value="10"> Georgia </option>
+      <option value="11"> Hawaii </option>
+      <option value="12"> Idaho </option>
+      <option value="13"> Illinois </option>
+      <option value="14"> Indiana </option>
+      <option value="15"> Iowa </option>
+      <option value="16"> Kansas </option>
+      <option value="17"> Kentucky </option>
+      <option value="18"> Louisiana </option>
+      <option value="19"> Maine </option>
+      <option value="20"> Maryland </option>
+      <option value="21"> Massachussetts </option>
+      <option value="22"> Michigan</option>
+      <option value="23"> Minnesota </option>
+      <option value="24"> Mississippi</option>
+      <option value="25"> Missouri </option>
+      <option value="26"> Montana </option>
+      <option value="27"> Nebraska </option>
+      <option value="28"> Nevada </option>
+      <option value="29"> New Hampshire </option>
+      <option value="30"> New Jersey </option>
+      <option value="31"> New Mexico </option>
+      <option value="32"> New York </option>
+      <option value="33"> North Carolina </option>
+      <option value="34"> North Dakota </option>
+      <option value="35"> Ohio </option>
+      <option value="36"> Oklahoma </option>
+      <option value="37"> Oregon </option>
+      <option value="38"> Pennsylvania </option>
+      <option value="39"> Rhode Island </option>
+      <option value="40"> South Carolina </option>
+      <option value="41"> South Dakota </option>
+      <option value="42"> Tennesee </option>
+      <option value="43"> Texas </option>
+      <option value="44"> Utah </option>
+      <option value="45"> Vermont </option>
+      <option value="46"> Virginia </option>
+      <option value="47"> Washington </option>
+      <option value="48"> Washington D.C. </option>
+      <option value="49"> West Virginia </option>
+      <option value="50"> Wisconsin </option>
+      <option value="51"> Wyoming </option>
+      
 	</select>
     </p>
       
@@ -68,9 +111,10 @@
 	<label for='Country'> Country: </label>
 	<select id="Country"  name="Country">
         <option value="00" selected="selected">[choose yours]</option>
-        <option value="01"></option>
-        <option value="02"></option>
-        <option value="03"></option>
+        <option value="US"> United States </option>
+        <option value="CA"> Canada </option>
+        <option value="MX"> Mexico </option>
+      <option value="BR"> Brazil </option>
         </select>
       </p>
       
@@ -84,5 +128,6 @@
     </p>
     </fieldset>
 </form>
+  <script src="validation.js"> </script> 
 </body>
 </html>

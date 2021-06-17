@@ -6,7 +6,7 @@ var myImages =["https://www.betterathomehc.com/wp-content/uploads/2019/09/denial
               ];
 
 
-var captionImages =["Denial","Anger","Bargains","Sadness","Acceptance"];
+var captionImages =["Denial, Stage 1","Anger, Stage 2","Bargains, Stage 3","Sadness, Stage 4","Acceptance, Stage 5"];
 
  var index=0; 
 

@@ -213,3 +213,15 @@ form {
   margin-left:auto;
   margin-right:auto;
 }
+
+#errorMessage1 {
+  color:red;
+}
+
+#errorMessage2 {
+  color:red;
+}
+
+#errorMessage3 {
+  color:red;
+}

@@ -44,7 +44,7 @@ function validateForm(){
 
   if (Email === "" ) {
     document.getElementById("errorMessage3").innerHTML = "Please enter your email.";
-  } else if (atpos< 1 || dotpos<atpos+2 || dotpos+2>= userEmail.length) { 
+  } else if (atpos< 1 || dotpos<atpos+2 || dotpos+2>= Email.length) { 
     document.getElementById("errorMessage3").innerHTML = "Please enter a valid email."; 
   }
 

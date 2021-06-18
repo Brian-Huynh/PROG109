@@ -149,9 +149,9 @@ function validateForm(){
   var validZipCode = false;
   var ZipCode = document.getElementById("ZipCode").value;
 
-  if (ZipCode === "" ) {
+  if (ZipCode === "" && Country === "US") {
     document.getElementById("errorMessage11").innerHTML = "Please enter your Zip Code.";
-  } else if (ZipCode.length > 5 ) {
+  } else if (ZipCode.length > 5 && Country === "US" ) {
     document.getElementById("errorMessage11").innerHTML = "Enter a valid 5-Digit zip code";
   }
 

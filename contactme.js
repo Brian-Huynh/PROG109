@@ -1,5 +1,5 @@
-function validateForm(){
-
+function validateContact(){
+  
   //First Name validation
   var validFirstname = false;
   var FirstName = document.getElementById("FirstName").value;
@@ -8,14 +8,15 @@ function validateForm(){
   if (FirstName === "" ) {
     document.getElementById("errorMessage1").innerHTML = "Please enter your first name.";
   } else if (FirstName.length > 20 ) {
-    document.getElementById("errorMessage1").innerHTML = "Exceeded the character limit (50)";
-  } else if (letters.test(FirstName) === false)  {
+    document.getElementById("errorMessage1").innerHTML = "Exceeded the character limit (20)";
+  } else if (letters.test(FirstName) === false) {
     document.getElementById("errorMessage1").innerHTML = "Letters only.";
   }
   
   else {
     validFirstname = true;
     document.getElementById("errorMessage1").innerHTML = "";}
+  
   
   
   //LastName Validation
@@ -50,8 +51,6 @@ function validateForm(){
   else{
     document.getElementById("errorMessage3").innerHTML = "";
    validEmail = true;}
-  
-  
   
   
   if (validFirstname === false || validLastname === false || validEmail === false) {

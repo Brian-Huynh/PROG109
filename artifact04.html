@@ -3,55 +3,64 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-	<meta name="author" content="Brian Huynh">
-	<meta name="description" content="Validation Form JS">
   <link rel="stylesheet" href="a4.css">
   <title> Validation Form </title>
 </head>
 <body>
-  <form action="a4thanks.html" id="MyForm" onsubmit="return validateForm();">
+  <form action="a4thanks.html" id="MyForm" method="get" onsubmit="return validateForm();">
     <fieldset>
+    
       <p>
 	<label for='FirstName'>First Name:</label>
 	<input type="text" id="FirstName" name="FirstName" />
-      </p>
-      <div id="errorMessage1"> </div>
+      </p>      
+              <div id="errorMessage1"> </div>
+    
 
     <p>
 	<label for='LastName'> Last Name:</label>
 	<input type="text" id="LastName" name="LastName" />
-    </p>
+    </p>      
+              <div id="errorMessage2"> </div>
     
+            
     <p>
 	<label for='Email'>Email:</label>
 	<input type="text" id="Email" name="Email" />
-    </p>
-    
+    </p>      
+              <div id="errorMessage3"> </div>
+  
+      
     <p>
 	<label for='Phone'> Phone:</label>
 	<input type="text" id="Phone" name="Phone" />
     </p>
+          <div id="errorMessage4"> </div>
       
+        
       <p>
         <label for="Username"> Username: </label>
         <input type="text" id="Username" name="Username" />
-      </p>
+      </p> 
+            <div id="errorMessage5"> </div>
       
       <p> 
         <label for="Password"> Password: </label>
         <input type="password" id="Password" name="Password" />
-      </p>
+      </p> 
+            <div id="errorMessage6"> </div>
 
     <p>
 	<label for='Address'>Address:</label>
 	<textarea cols="20" rows="5" id="Address" name="Address"></textarea>
-    </p>
+    </p> <div id="errorMessage7"> </div>
+    
       
       <p>
         <label for="City"> City: </label>
-        <input type="text" id="City" name="City" />
-    
-    <p>
+        <input type="text" id="City" name="City" />    
+      <p> <div id="errorMessage8"> </div>
+      
 	<label for='State'>State:</label>
 	<select id="State"  name="State">
       <option value="00" selected="selected">[choose yours]</option>
@@ -106,10 +115,11 @@
       <option value="49"> West Virginia </option>
       <option value="50"> Wisconsin </option>
       <option value="51"> Wyoming </option>
-      
 	</select>
-    </p>
+    </p> 
+            <div id="errorMessage9"> </div>
       
+    
       <p>
 	<label for='Country'> Country: </label>
 	<select id="Country"  name="Country">
@@ -119,18 +129,22 @@
         <option value="MX"> Mexico </option>
       <option value="BR"> Brazil </option>
         </select>
-      </p>
+      </p>  
+    
+            <div id="errorMessage10"> </div>
       
       <p>
         <label for="ZipCode"> Zip Code: </label>
         <input type="text" id="ZipCode" name="ZipCode" />
-      </p>
+      </p> 
+    
+                <div id="errorMessage11"> </div>
       
     <p>
 	<input type="submit" name="submit" value="Submit">
     </p>
     </fieldset>
 </form>
-  <script src="form.js"> </script> 
+	<script src="artifactform.js"> </script>
 </body>
 </html>

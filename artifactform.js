@@ -10,7 +10,7 @@ function validateForm(){
     document.getElementById("errorMessage1").innerHTML = "Please enter your first name.";
   } else if (FirstName.length > 20 ) {
     document.getElementById("errorMessage1").innerHTML = "Exceeded the character limit (20)";
-  } else if (letters.test(FirstName === false) ) {
+  } else if (letters.test(FirstName) === false) {
     document.getElementById("errorMessage1").innerHTML = "Letters only.";
   }
   
@@ -27,7 +27,7 @@ function validateForm(){
     document.getElementById("errorMessage2").innerHTML = "Please enter your last name.";
   } else if (LastName.length > 50 ) {
     document.getElementById("errorMessage2").innerHTML = "Exceeded the character limit (50)";
-  } else if (letters.test(LastName === false) ) {
+  } else if (letters.test(LastName) === false) {
     document.getElementById("errorMessage2").innerHTML = "Letters only.";
   }
 

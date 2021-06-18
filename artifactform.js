@@ -7,11 +7,14 @@ function validateForm(){
 
   if (FirstName === "" ) {
     document.getElementById("errorMessage1").innerHTML = "Please enter your first name.";
-  } 
-
-  else{
+  } else if (FirstName.length > 20 ) {
+    document.getElementById("errorMessage1").innerHTML = "Exceeded the character limit (20)";
+  }
+  
+  else {
     validFirstname = true;
     document.getElementById("errorMessage1").innerHTML = "";}
+  
   
   //LastName Validation
   var validLastname = false;
@@ -19,7 +22,9 @@ function validateForm(){
 
   if (LastName === "" ) {
     document.getElementById("errorMessage2").innerHTML = "Please enter your last name.";
-  } 
+  } else if (LastName.length > 50 ) {
+    document.getElementById("errorMessage2").innerHTML = "Exceeded the character limit (50)";
+  }
 
   else {
      validLastname = true;
@@ -55,7 +60,9 @@ function validateForm(){
 
   if (Username === "" ) {
     document.getElementById("errorMessage5").innerHTML = "Please enter your username.";
-  } 
+  } else if (Username.length > 12 ) {
+    document.getElementById("errorMessage5").innerHTML = "Exceeded the character limit (12)";
+  }
 
   else {
     document.getElementById("errorMessage5").innerHTML = "";
@@ -68,7 +75,9 @@ function validateForm(){
 
   if (Password === "" ) {
     document.getElementById("errorMessage6").innerHTML = "Please enter your password.";
-  } 
+  } else if (Password.length > 7 ) {
+    document.getElementById("errorMessage6").innerHTML = "Exceeded the character limit (7)";
+  }
 
   else {
     document.getElementById("errorMessage6").innerHTML = "";
@@ -129,7 +138,9 @@ function validateForm(){
 
   if (ZipCode === "" ) {
     document.getElementById("errorMessage11").innerHTML = "Please enter your Zip Code.";
-  } 
+  } else if (ZipCode.length > 5 ) {
+    document.getElementById("errorMessage11").innerHTML = "Enter a valid 5-Digit zip code";
+  }
 
   else{
     document.getElementById("errorMessage11").innerHTML = "";

@@ -9,9 +9,9 @@ function validateForm(){
     document.getElementById("errorMessage1").innerHTML = "Please enter your first name.";
   } 
 
-  else
-   validFirstname = true;
-  
+  else{
+    validFirstname = true;
+    document.getElementById("errorMessage1").innerHTML = "";}
   
   //LastName Validation
   var validLastname = false;
@@ -21,8 +21,9 @@ function validateForm(){
     document.getElementById("errorMessage2").innerHTML = "Please enter your last name.";
   } 
 
-  else
-   validLastname = true;
+  else {
+     validLastname = true;
+    document.getElementById("errorMessage2").innerHTML = "";}
   
   //Email Validation
   var validEmail = false;
@@ -33,6 +34,7 @@ function validateForm(){
   } 
 
   else{
+    document.getElementById("errorMessage3").innerHTML = "";
    validEmail = true;}
   
   //Phone Validation
@@ -44,6 +46,7 @@ function validateForm(){
   } 
 
   else{
+    document.getElementById("errorMessage4").innerHTML = "";
    validPhone = true;}
   
   //Username Validation
@@ -55,6 +58,7 @@ function validateForm(){
   } 
 
   else {
+    document.getElementById("errorMessage5").innerHTML = "";
    validUsername = true;}
   
   
@@ -67,6 +71,7 @@ function validateForm(){
   } 
 
   else {
+    document.getElementById("errorMessage6").innerHTML = "";
    validPassword = true;}
   
   
@@ -79,6 +84,7 @@ function validateForm(){
   } 
 
   else{
+    document.getElementById("errorMessage7").innerHTML = "";
    validAddress = true;}
   
   //City Validation
@@ -90,6 +96,7 @@ function validateForm(){
   } 
 
   else{
+    document.getElementById("errorMessage8").innerHTML = "";
    validCity = true;}
   
   //State Validation
@@ -101,6 +108,7 @@ function validateForm(){
   } 
 
   else{
+    document.getElementById("errorMessage9").innerHTML = "";
    validState = true;}
   
   //Country Validation
@@ -112,6 +120,7 @@ function validateForm(){
   } 
 
   else{
+    document.getElementById("errorMessage10").innerHTML = "";
    validCountry = true;}
   
   //Zip Code Validation
@@ -123,6 +132,7 @@ function validateForm(){
   } 
 
   else{
+    document.getElementById("errorMessage11").innerHTML = "";
    validZipCode = true;}
   
   if (validFirstname === false || validLastname === false || validEmail === false || validPhone === false || validUsername === false || validPassword === false || validAddress === false || validCity === false || validState === false || validCountry === false || validZipCode === false) {

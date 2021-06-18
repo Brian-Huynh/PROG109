@@ -1,7 +1,45 @@
-*{
+* {
   text-align:center;
 }
 
 #errorMessage1 {
+  color:red;
+}
+
+#errorMessage2 {
+  color:red;
+}
+
+#errorMessage3 {
+  color:red;
+}
+
+#errorMessage4 {
+  color:red;
+}
+#errorMessage5 {
+  color:red;
+}
+
+#errorMessage6 {
+  color:red;
+}
+
+#errorMessage7 {
+  color:red;
+}
+
+#errorMessage8 {
+  color:red;
+}
+
+#errorMessage9 {
+  color:red;
+}
+#errorMessage10 {
+  color:red;
+}
+
+#errorMessage11{
   color:red;
 }

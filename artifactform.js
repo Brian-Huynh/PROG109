@@ -1,5 +1,6 @@
 function validateForm(){
   
+  
   //First Name validation
   var validFirstname = false;
   var FirstName = document.getElementById("FirstName").value;
@@ -123,4 +124,9 @@ function validateForm(){
 
   else{
    validZipCode = true;}
+  
+  if (validFirstname === false || validLastname === false || validEmail === false || validPhone === false || validUsername === false || validPassword === false || validAddress === false || validCity === false || validState === false || validCountry === false || validZipCode === false) {
+    return false;
+  }
+  
 }
